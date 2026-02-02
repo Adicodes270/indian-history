@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chinmaya Vidyalaya</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/chogo.png">
+</head>
+
+<body>
+    <header class="nav-bar ">
+        <nav class="navbar">
+            <h1 id="nav-title">
+                <span class="chinmaya">The Great War Of Independence</span>
+            </h1>
+
+            <div class="nav-links">
+                <a href="#hero">
+                    <h2 class="nav-subtitle">Introduction</h2>
+                </a>
+
+                <a href="#facilities">
+                    <h2 class="nav-subtitle">Freedom Fighters</h2>
+                </a>
+                <a href="#events">
+                    <h2 class="nav-subtitle">Events of 1857</h2>
+                </a>
+
+                <a href="#about-us">
+                    <h2 class="nav-subtitle" href="#">Conclusion</h2>
+                </a>
+
+                <a href="#contact">
+                    <h2 class="nav-subtitle btn-primary">Contributions</h2>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero" id="hero">
+            <div class="hero-content">
+
+                <h1 class="welcome-to">Introduction To</h1>
+                <h2 class="chinmaya-vid">The Great War Of Independence</h2>
+                <h3>Arrival Of Dalhousie</h3>
+                <p>
+
+                    The arrival of Lord Dalhousie as Governor-General marked a turning point in Indian history. His
+                    Doctrine of Lapse led to the annexation of princely states, offending traditional rulers and
+                    weakening Swarajya. At the same time, Indian sepoys faced growing discrimination and disrespect.
+                    These combined grievances sparked widespread anger, leading to the Revolt of 1857—a massive uprising
+                    that shook British rule in India.
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- <div class="aboutus" id="about-us">
+            <h1 class="aboutus-title">About Us</h1>
+            <div class="aboutus-content-container">
+                <img src="assets/chogo.png" alt="About Us">
+                <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                    The school motto is <strong>"Keep Smiling!"</strong>. Our institution maintains a clear leadership
+                    hierarchy, overseen
+                    by the President, Secretary, and Principal, followed by the Headmaster and a dedicated faculty
+                    committed to helping students achieve excellence. The campus features an expansive main playground
+                    for sports such as badminton, football, and volleyball, alongside indoor facilities for games like
+                    chess and ludo. Additionally, a specialized play area with various slides and activities is provided
+                    for junior students. To support a vibrant student life, our large auditorium and assembly hall host
+                    numerous tournaments and competitions, offering every student the opportunity to excel.
+                </p>
+
+            </div>
+        </div> -->
+        <div class="faci" id="facilities">
+            <h1 class="faci-title" style="text-align: center;margin-bottom: 30px;">Freedom Fighters</h1>
+            <div class="faci-content">
+                <div onclick="showMsg()">
+                    <div class="items">
+                        <h2 id="compLab" style="text-align: center;"><img src="assets/lax.png" alt="Comp Lab"
+                                id="compLab"
+                                style="width: 246px;height:120.9px; margin-right: 0px;border-radius: 12px;border: 3px solid rgb(0, 0, 0);">
+                            Rani Laxmi Bai</h2>
+                        <h2 id="classRoom" style="text-align: center;"><img src="assets/man.png" alt="Class Room"
+                                id="classRoom"
+                                style="width: 246px; margin-right: 0px;border-radius: 12px;border: 3px solid rgb(0, 0, 0);height:120.9px;">
+                            Mangal Pandey</h2>
+                        <h2 id="library" style="text-align: center;"><img src="assets/tan.png" alt="Library"
+                                id="library"
+                                style="width: 246px; margin-right: 0px;border-radius: 12px;border: 3px solid rgb(0, 0, 0);height:120.9px;">
+                            Tantia Tope</h2><br>
+                    </div>
+                    <div class="item" style="margin-top: 40px;margin-bottom: 40px;">
+                        <h2 id="transport" style="text-align: center;"><img src="assets/nan.png" alt="Transport"
+                                id="transport"
+                                style="width: 246px; margin-right: 0;border-radius: 12px;border: 3px solid rgb(0, 0, 0);height:120.9px;">
+                            Nana Saheb</h2>
+                        <h2 id="auditorium" style="text-align: center;"><img src="assets/kun.png" alt="Auditorium"
+                                id="auditorium"
+                                style="width: 246px; margin-right: 0;border-radius: 12px;border: 3px solid rgb(0, 0, 0);height:120.9px;">
+                            Kunwar Singh</h2>
+                        <h2 id="sports" style="text-align: center;"><img src="assets/sah.png" alt="Sports" id="sports"
+                                style="width: 246px; margin-right: 0;border-radius: 12px;border: 3px solid rgb(0, 0, 0);height:120.9px;">
+                            Bahadur Shah Zafar</h2><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="msg-container hide">
+            <div class="msg-box">
+                <h1 id="msg"></h1>
+                <p></p>
+            </div>
+        </div>
+    </main>
+
+    <h1 id="events">Events of 1857</h1>
+
+    <div class="aboutus" id="about-us" style="background-color: #0f172a;">
+        <h1 class="aboutus-title">Time-Line</h1>
+        <div class="aboutus-content-container">
+
+            <pre class="aboutus-content" style="text-align: justify;margin-bottom: 30px;text-align: left;">
+
+                            <strong>1857 –          </strong>Revolt begins at Meerut<br>
+                            <strong>1858 –          </strong>India comes under direct British Crown rule<br>
+                            <strong>1857 –          </strong>Mangal Pandey martyred<br>
+                            <strong>1858 –          </strong>Rani Lakshmi Bai martyred<br>
+                            <strong>1859 –          </strong>Tantia Tope martyred
+                </pre>
+
+        </div>
+    </div>
+
+    <div class="aboutus" id="about-us" style="background-color: #0f172a;">
+        <h1 class="aboutus-title">The Causes of Discontent</h1>
+        <div class="aboutus-content-container">
+
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                The seeds of the 1857 rebellion were sown through a combination of political annexation and
+                deep-seated social insults by the British. Under Lord Dalhousie’s Doctrine of Lapse, the British
+                East India Company aggressively seized princely states like Jhansi and Satara, refusing to recognize
+                adopted heirs such as Damodar Rao and Nana Saheb. This political aggression was compounded by "gross
+                injustice" and personal humiliations; the British stooped so low as to auction off royal family
+                ornaments and physically damage royal properties with axes. Simultaneously, the Indian sepoys faced
+                severe religious and professional provocation. The introduction of a new rifle cartridge, reportedly
+                greased with cow and pig fat, forced soldiers to choose between their military duty and their most
+                sacred religious principles, acting as the final "fuel for the fire" that ignited a nationwide surge
+                of patriotism and armed resistance.
+            </p>
+
+        </div>
+    </div>
+    <div class="aboutus" id="about-us" style="background-color: #0f172a;">
+        <h1 class="aboutus-title">The Spark & Secret Planning</h1>
+        <div class="aboutus-content-container">
+
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                The revolution of 1857 was not a spontaneous outburst but a result of deliberate, undercover
+                coordination among Indian leaders seeking to reclaim their sovereignty. While in London, Azimullah
+                Khan met with Rangoji Bapu, a representative of the King of Satara, where they shared stories of
+                British deception and formulated the idea for an armed struggle in Bharat. Upon his return,
+                Azimullah shared this plan with Nana Saheb, who eagerly accepted it to avenge the humiliations meted
+                out to his family. By 1856, Nana Saheb began sending emissaries across the country and circulating
+                secret letters to warn other rulers about British annexation agendas. Leadership roles were
+                strategically assigned to regional heroes: Bahadur Shah for Delhi, Kunwar Singh for Jagdishpur,
+                Ahmad Shah for Lucknow, and Rani Lakshmi Bai for Jhansi. This groundwork set the stage for a
+                nationwide revolt, originally scheduled for 31 May 1857.
+            </p>
+
+        </div>
+    </div>
+    <div class="aboutus" id="about-us" style="background-color: #0f172a;">
+        <h1 class="aboutus-title">The Great Revolution (1857)</h1>
+        <div class="aboutus-content-container">
+
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                The War of 1857 was not just a mutiny of soldiers or a rebellion by a few rulers. It was a planned
+                and collective uprising against British rule, involving kings, soldiers, and common people. Although
+                the revolt failed militarily, it created a strong sense of unity and nationalism among Indians.
+            </p>
+            <h2 style="margin-left: 50px;">Consequences:</h2><br>
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                > <strong>British Crown Rule (1858):</strong> Power was transferred from the East India Company to the
+                British Crown.
+                Promises of religious freedom, equal laws, and job opportunities for Indians were made.<br><br>
+
+                > <strong>New Administration:</strong> The post of Secretary of State for India was created, and the
+                Viceroy became
+                the head of administration in India.<br><br>
+
+                > <strong>Army Reorganization:</strong> The British restructured the army, limited Indian soldiers’
+                power, and
+                reserved higher ranks and advanced weapons for Europeans.<br><br>
+
+                > <strong>Divide and Rule Policy:</strong> The British promoted divisions based on caste and religion to
+                weaken Indian
+                unity.<br>
+            </p>
+            <h2 style="margin-left: 50px;">Conclusion</h2><br>
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                Though the 1857 War of Independence did not bring immediate freedom, it laid the foundation for
+                future freedom movements. The spirit of resistance and sacrifice inspired generations of Indians and
+                strengthened the struggle for independence.
+            </p>
+
+        </div>
+    </div>
+    <div class="aboutus" id="about-us" style="background-color: #0f172a;">
+        <h1 class="aboutus-title">Episodes of Valour</h1>
+        <div class="aboutus-content-container">
+
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                Despite the overwhelming British response, the revolution was defined by extraordinary displays of
+                courage and leadership from Indian "brave hearts". Rani Lakshmi Bai of Jhansi became a symbol of
+                resistance; after refusing to surrender her kingdom, she led her troops into battle, famously escaping
+                the British siege of Jhansi to capture Gwalior Fort alongside Tantia Tope. Her courage was so immense
+                that even her British adversary, Hugh Rose, described her as the "most dangerous of all Indian leaders".
+                Other figures, such as Jhalkhari Bai, who disguised herself as the Queen to allow the Rani to escape,
+                and Tantia Tope, who waged persistent guerrilla warfare and even briefly recaptured Kanpur with 6,000
+                sepoys, demonstrated the strategic brilliance and self-sacrifice of the Indian revolutionaries.
+            </p>
+
+        </div>
+    </div>
+    <div class="aboutus" id="about-us" style="background-color: #0f172a;">
+        <h1 class="aboutus-title">British Reaction & Aftermath</h1>
+        <div class="aboutus-content-container">
+
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                The British response to the uprising was characterized by swift reorganization and extreme brutality.
+                Although initially caught off guard, the British administration quickly moved to suppress the rebellion,
+                capitalizing on the rebels' lack of coordination and the early commencement of the revolt in Meerut. In
+                Delhi, British forces under Sikh and Gurkha regiments conducted a barbaric five-month siege, eventually
+                capturing the city, executing the sons of Bahadur Shah, and exiling the Emperor to Rangoon. In Kanpur,
+                General Neill’s forces engaged in horrific acts of retaliation, including the public execution of sepoys
+                and the burning of entire villages. This ruthless suppression involved the deaths of hundreds of
+                thousands of Indians, with some historical estimates suggesting the total toll reached as high as one
+                crore.
+            </p>
+
+        </div>
+    </div>
+
+
+    <div class="aboutus" id="about-us" style="background-color: #0f172a;">
+        <h1 class="aboutus-title">Conclusion</h1>
+        <div class="aboutus-content-container">
+
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                The War of 1857 stands as a monumental chapter in Indian history, representing the first major organized
+                challenge to British authority. Though the rebellion was eventually suppressed due to factors like early
+                commencement, a lack of central leadership, and poor coordination among various regions, it shook the
+                foundations of British rule in both India and England. The sacrifice of martyrs like Mangal Pandey and
+                the undying courage of leaders like Rani Lakshmi Bai and Tantia Tope ignited a "great fire of
+                patriotism" that would continue to burn for decades. Ultimately, while the British reclaimed their lost
+                territories through ruthless force and atrocities, the 1857 uprising forever changed the political
+                landscape, setting the stage for the long struggle toward Swarajya and final independence.
+            </p>
+            <h2 style="margin-left: 50px;">Summary of the Rebellion's Legacy:</h2><br>
+            <p class="aboutus-content" style="text-align: justify;margin-bottom: 30px;">
+                > <strong>Unprecedented Unity:</strong> Brought together kings, queens, and sepoys from various
+                backgrounds against a common colonial power.<br><br>
+
+                > <strong>The Toll of Resistance:</strong> The conflict resulted in massive loss of life, with some
+                historians estimating the toll as high as one crore.<br><br>
+
+                > <strong>End of Company Rule:</strong> The intensity of the revolt led to significant changes in how
+                Britain governed India thereafter.<br><br>
+            </p>
+        </div>
+    </div>
+
+
+    </main>
+    <section id="contact" class="section contact-final">
+        <h2>Contributions - Team_5:</h2>
+        <p class="contact-info">
+            Virat • Aditya • Ayush • Tejas • Vaidik • Somit • Aarav<br>
+        </p>
+
+
+        <p class="feedback-text">
+            Provide us with full marks for our hardwork!!
+        </p>
+    </section>
+
+
+
+
+
+
+
+
+    <div class="theme-toggle-container">
+        <button class="theme-toggle-btn" onclick="toggleTheme()" title="Toggle Theme">
+            <i class="fas fa-moon theme-icon"></i>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
