@@ -183,13 +183,7 @@ document.querySelectorAll('#compLab, #classRoom, #library, #transport , #auditor
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    gsap.from('.hero', {
-        x: 1300,
-        duration: 2,
-        rotate: 360,
-        borderRadius: '50%',
-        scale: 0.5
-    });
+
 
     const mediaQuery1 = window.matchMedia('(min-width: 424px)');
     const mediaQuery2 = window.matchMedia('(min-width: 767px)');
